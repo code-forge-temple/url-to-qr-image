@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "URL to QR Image",
+    "version": "1.0",
+    "description": "A Chrome extension for encoding the current tab URL as a QR image.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/icon16.png",
+            "48": "images/icon48.png",
+            "128": "images/icon128.png"
+        }
+    },
+    "background": {
+        "service_worker": "service-worker.js",
+        "type": "module"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ]
+}

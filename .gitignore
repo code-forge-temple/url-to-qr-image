@@ -1,0 +1,7 @@
+libs/qrious/*
+!libs/qrious/dist/
+!libs/qrious/LICENSE.md
+!libs/qrious/README.md
+
+libs/qrious/dist/*
+!libs/qrious/dist/qrious.min.js
